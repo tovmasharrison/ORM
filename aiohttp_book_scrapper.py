@@ -55,6 +55,9 @@ class Parser():
             library.storage.insert(book_title=book_name, link=book_link, author=book_author, rating=book_rating)
 
     async def main(self,list_urls):
+        """ async function that uses asyncio to gather the results of a call to another 
+            async function named async_parse with a list of URLs as its argument """
+        
         await asyncio.gather(self.async_parse(list_urls))
 
     
