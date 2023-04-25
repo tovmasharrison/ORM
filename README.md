@@ -3,5 +3,10 @@ __ORM__ is a Python project that contains an ORM for SQLite 3 with CRUD commands
 
 __To run the web scraper, you will need  the following packages installed:__
 
-- beautifulsoup4 (pip install beautifulsoup4)
-- aiohttp (pip install aiohttp)
+- beautifulsoup4  
+  ```bash
+  pip install beautifulsoup4
+  ```bash
+- aiohttp  
+  pip install aiohttp
+  ```
