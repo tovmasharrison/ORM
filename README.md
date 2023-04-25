@@ -6,7 +6,9 @@ __To run the web scraper, you will need  the following packages installed:__
 - beautifulsoup4  
   ```bash
   pip install beautifulsoup4
-  ```bash
+  ```
+  
 - aiohttp  
+  ```bash
   pip install aiohttp
   ```
